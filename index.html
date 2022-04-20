@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+  <header>
+    <meta charset = "UTF-8">
+    <meta name = "description" content = "This is a blog for people around the world to write about themselves or the world around them.">
+    <img width="100" src="earth.png" alt="Earth">
+    <title>The World's Blog</title>
+  </header>
+
+  <main>
+
+    <body style="color: #d3cfca; background-color: rgb(25,25,25);" id="body-content" class="infinite-scroll neverending">
+
+      <h1>The World's Blog</h1>
+      <h4>This is a blog for people around the <i>world</i> to write about themselves.</h4>
+      <hr/>
+      <br/>
+
+
+      <article>
+        <section>
+          <h2>Water Binds Us</h2>
+          <p style = "color: rgb(149,183,199)">H<sub>2</sub>0</p>
+        </section>
+      </article>
+
+      <br/>
+      <hr/>
+      <br/>
+
+      <article>
+        <section>
+          <h2>Limitless</h2>
+          <p style = "color: rgb(149,183,199)">Infinity is a great idea, but unless you’re doing math, it’s mostly an idea. Everything else in our world has limits. It’s the limits that make it interesting, the limits that give us an edge to the box, something to leverage against. Instead of denying the existence of limits and the trade-offs that they bring with them, it might be helpful to begin with an understanding of what they are, or at least what other people think they are.</p>
+        </section>
+      </article>
+
+      <br/>
+      <hr/>
+      <br/>
+
+      <article>
+        <section>
+          <h2><span id="data"></span><br></h2>
+          <p style = "color: rgb(149,183,199)"><span id="data1"></span><br></p>
+          <script>
+            //displaying the value from local storage to another page by their respective Ids
+            document.getElementById('data').innerHTML=localStorage.getItem('txtValue');
+            document.getElementById('data1').innerHTML=localStorage.getItem('txtValue1');
+          </script>
+        </section>
+      </article>
+
+      <br/>
+      <hr/>
+      <br/>
+
+
+
+    </body>
+  </main>
+
+  <footer>
+    <article>
+      <section>
+        <a href="https://www.facebook.com" target="_blank" style = "color: rgb(195,153,18)">Follow Us On Facebook!</a>
+      </section>
+
+      <section>
+        <a href="page2.html" style = "color: rgb(195,153,18)">Create Your Own Post</a>
+      </section>
+    </article>
+
+
+
+  </footer>
+</html>
